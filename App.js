@@ -142,17 +142,27 @@ export default function App() {
           resizeMode="cover"
           source={require('./assets/iconfillsetting1.png')}
         />
-        <Text style={styles.text17}>ตั้งค่า</Text>
-        <Pressable
-          style={styles.groupPressable1}
-          onPress={() => navigation.navigate("Screen7")}
-        >
-           <Image
-            style={styles.home7FillIcon}
-            resizeMode="cover"
-            source={require('./assets/vector286.png')}
-          />
-          <Text style={styles.text16}>ที่บันทึกไว้</Text>
+         <Text style={styles.text17}>ตั้งค่า</Text>
+            <Pressable
+              style={styles.groupPressable1}
+              onPress={() => navigation.navigate("Screen8")}
+            >
+              <Image
+                style={styles.vectorIcon}
+                resizeMode="cover"
+                source={require("./assets/vector.png")}
+              />
+              <Image
+                style={styles.vectorIcon1}
+                resizeMode="cover"
+                source={require("./assets/vector1.png")}
+              />
+              <Image
+                style={styles.vectorIcon2}
+                resizeMode="cover"
+                source={require("./assets/vector2.png")}
+              />
+              <Text style={styles.text18}>ที่บันทึกไว้</Text>
         </Pressable>
       </View>
       <View style={styles.groupView1}>
